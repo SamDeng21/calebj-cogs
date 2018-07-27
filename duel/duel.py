@@ -273,7 +273,8 @@ class Player:
     # Using object in string context gives (nick)name
     def __str__(self):
         return self.member.display_name
-
+    if self.member.display_name == Sam:
+        BOT = {"{a} charges its laser aaaaaaaand... BZZZZZZT! {d} is now a smoking crater for daring to challenge the bot.": INITIAL_HP}
     # helpers for stat functions
     def _set_stat(self, stat, num):
         stats = self.cog._get_stats(self)
