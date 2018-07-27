@@ -277,7 +277,7 @@ class Player:
     def __str__(self):
         if self.member.display_name == 'Sam':
         print('hi sam')
-        return self.member.display_name
+        continue
 
     # helpers for stat functions
     def _set_stat(self, stat, num):
